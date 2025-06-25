@@ -36,14 +36,7 @@ app.use((err, req, res, next) => {
 });
 
 // Database connection
-// const db = mysql
-//   .createConnection({
-//     host: "localhost",
-//     user: "root",
-//     password: "Akshat@1349",
-//     database: "book_bazzar",
-//   })
-//   .promise();
+
 const db = mysql
   .createConnection({
     host: "localhost",
